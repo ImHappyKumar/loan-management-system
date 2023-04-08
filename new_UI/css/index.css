@@ -1,0 +1,46 @@
+body {
+    background: #59b6ec61;
+}
+
+.card {
+    background: #0e303d;
+    color: white;
+}
+
+.modal-header, .modal-footer, .modal-content {
+    background: #0e303d;
+    color: white;
+}
+
+.modal-body {
+    background: #59b6ec61;
+}
+
+.bg-success {
+    background-color: #0e303d !important;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 2px 10px;
+    background-color: #0e303d;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+@media only screen and (max-width: 576px) {
+    #uni_modal .modal-dialog {
+        width: 80% !important;
+        margin: auto !important;
+        margin-top: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    footer {
+        font-size: 10px;
+    }
+}
